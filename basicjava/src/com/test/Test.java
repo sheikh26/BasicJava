@@ -8,7 +8,7 @@ import com.basic.Person;
 public class Test {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		

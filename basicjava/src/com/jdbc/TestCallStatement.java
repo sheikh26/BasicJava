@@ -8,7 +8,7 @@ import java.sql.Types;
 public class TestCallStatement {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) throws Exception {
 		
@@ -21,7 +21,7 @@ public class TestCallStatement {
 
 		CallableStatement callStmt = conn.prepareCall("{CALL ProTest(?)}");
 
-		callStmt.registerOutParameter(1, Types.INTEGER);
+		callStmt.registerOutPaparameter(1, Types.INTEGER);
 
 		callStmt.execute();
 

@@ -3,7 +3,7 @@ package com.test;
 public class TestMath {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		float a = 5;

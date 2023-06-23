@@ -12,6 +12,9 @@ public class AbstractChildHonda extends AbstractClassBike{
 		//b=new AbstractChildHonda();  
 		b.run();
 		b.changeGear();
+		AbstractChildHonda abstractChildHonda = new AbstractChildHonda();
+		abstractChildHonda.run();
+		abstractChildHonda.changeGear();
 		//System.out.println("Rate of Interest is: "+ b.run());        
 		}
 

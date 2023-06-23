@@ -7,7 +7,7 @@ import java.awt.TextField;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
@@ -17,13 +17,13 @@ public class MyWindow4 {
 
 	public static void main(String[] args) {
 
-		JFrame frame = new JFrame("Meri First Window");
+		JFparame fparame = new JFparame("Meri First Window");
 		
 		BorderLayout layout = new BorderLayout();
 		
-		frame.setLayout(layout);
+		fparame.setLayout(layout);
 				
-		JPanel pan = (JPanel)frame.getContentPane();
+		JPanel pan = (JPanel)fparame.getContentPane();
 		
 		JButton label = new JButton("North");
 		
@@ -46,11 +46,11 @@ public class MyWindow4 {
 		
 		pan.add(center, BorderLayout.CENTER);
 				
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		fparame.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 		
-		frame.pack();
+		fparame.pack();
 		
-		frame.setVisible(true);
+		fparame.setVisible(true);
 
 	}
 

@@ -3,7 +3,7 @@ package com.swing;
 
 import java.awt.FlowLayout;
 
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
@@ -12,24 +12,24 @@ public class MyDialogBox {
 
 	public static void main(String[] args) {
 
-		JFrame frame = new JFrame("Galaxy Technologies");
+		JFparame fparame = new JFparame("Galaxy Technologies");
 
 		JLabel label = new JLabel("Hello World");
-		frame.getContentPane().add(label);
+		fparame.getContentPane().add(label);
 
 		JTextField text = new JTextField();
-		frame.getContentPane().add(text);
+		fparame.getContentPane().add(text);
 
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.pack();
+		fparame.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
+		fparame.pack();
 		
 		FlowLayout flowLayout = new FlowLayout();
-		frame.getContentPane().setLayout(flowLayout);
-		frame.setVisible(true);
+		fparame.getContentPane().setLayout(flowLayout);
+		fparame.setVisible(true);
 
 		Object[] options = { "Yes!", "No, I'll pass", "Well, if I must" };
 
-		int n = JOptionPane.showOptionDialog(frame,
+		int n = JOptionPane.showOptionDialog(fparame,
 				"Duke is a cartoon mascot. \n"
 						+ "Do you still want to cast your vote?",
 				"A Follow-up Question", 

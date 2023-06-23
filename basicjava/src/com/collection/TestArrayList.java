@@ -11,7 +11,7 @@ import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
 public class TestArrayList {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main1(String[] args) {
 

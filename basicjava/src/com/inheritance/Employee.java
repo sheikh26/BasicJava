@@ -16,7 +16,7 @@ public class Employee extends Person {
 		
 		designaiton = des;
 		
-		System.out.println("****Employee 3 param  Constructor");
+		System.out.println("****Employee 3 paparam  Constructor");
 		
 
 	}

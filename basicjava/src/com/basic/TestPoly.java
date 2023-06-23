@@ -3,7 +3,7 @@ package com.basic;
 public class TestPoly {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		Shape[] s = new Shape[3];

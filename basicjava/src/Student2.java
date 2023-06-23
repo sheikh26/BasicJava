@@ -27,7 +27,7 @@ public class Student2 {
 	    public static void main(String args[])
 	    {
 	        Student2 s1 = new Student2(101,"Gagan");
-	        Student2 s2 = new Student2(102,"Raman");
+	        Student2 s2 = new Student2(102,"paraman");
 	        s1.display();  // call the display function using the s1 object
 	        s2.display();   // call the display function using the s2 object
 	    }

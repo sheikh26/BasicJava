@@ -5,7 +5,7 @@ import com.test.Shape;
 public class TestShape {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 

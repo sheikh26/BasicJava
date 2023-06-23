@@ -6,7 +6,7 @@ package com.basic;
  * 
  * @date 08/08/08
  * @version 1.0
- * @author Arif Sheikh
+ * @author param Sheikh
  * 
  */
 
@@ -14,7 +14,7 @@ public class MySystem {
 	
 	/**
 	 * Launch and native application notepad.exe
-	 * @param args
+	 * @paparam args
 	 * @throws Exception
 	 */
 	

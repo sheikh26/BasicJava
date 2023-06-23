@@ -1,6 +1,6 @@
 package com.basic;
 
-public class HelloName1 {
+public class HelloNameIf {
 
 	public static void main(String[] args) {
 		if (args.length == 1) {

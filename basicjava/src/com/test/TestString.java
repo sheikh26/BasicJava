@@ -3,7 +3,7 @@ package com.test;
 public class TestString {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		String str = "This is Java, Java is JOB oriented language";

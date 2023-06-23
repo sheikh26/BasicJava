@@ -1,6 +1,6 @@
 package com.basic;
 
-public class HelloAll1 {
+public class HelloAllCondition1 {
 	public static void main(String[] args) {
 		int size;
 		size = args.length;

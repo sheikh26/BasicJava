@@ -5,7 +5,7 @@ import com.basic.Circle;
 public class Love {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		try {

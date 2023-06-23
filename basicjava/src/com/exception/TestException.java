@@ -3,7 +3,7 @@ package com.exception;
 public class TestException {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) throws LoginException {
 		

@@ -4,16 +4,16 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JPanel;
 
 public class TestMultipleButton {
 
 	public static void main(String[] args) {
 
-		JFrame frame = new JFrame("Meri First Window");
+		JFparame fparame = new JFparame("Meri First Window");
 
-		JPanel pan = (JPanel) frame.getContentPane();
+		JPanel pan = (JPanel) fparame.getContentPane();
 		
 		FlowLayout layout = new FlowLayout(FlowLayout.CENTER);
 		pan.setLayout(layout);
@@ -32,11 +32,11 @@ public class TestMultipleButton {
 		pan.add(button1);
 		pan.add(button2);
 
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		fparame.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 
-		frame.setSize(400, 200);
+		fparame.setSize(400, 200);
 
-		frame.setVisible(true);
+		fparame.setVisible(true);
 
 	}
 

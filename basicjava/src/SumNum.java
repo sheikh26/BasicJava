@@ -4,7 +4,7 @@
  * 
  * @date 08/08/08
  * @version 1.0
- * @author Arif Sheikh
+ * @author param Sheikh
  * 
  * Declare int variables and sum them
  */

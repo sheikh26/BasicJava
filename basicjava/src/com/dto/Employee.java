@@ -58,7 +58,7 @@ public class Employee implements Serializable {
 	}
 
 	/**
-	 * @param tempValue the tempValue to set
+	 * @paparam tempValue the tempValue to set
 	 */
 	public void setTempValue(String tempValue) {
 		this.tempValue = tempValue;

@@ -15,7 +15,7 @@ public class Person {
 	}
 
 	public Person(String fn, String ln) {
-		System.out.println("***Person 2 param constroctor");
+		System.out.println("***Person 2 paparam constroctor");
 
 		firstName = fn;
 		lastName = ln;
@@ -31,7 +31,7 @@ public class Person {
 		
 		//this.address = address;
 		
-		System.out.println("***Person 3 param constroctor");
+		System.out.println("***Person 3 paparam constroctor");
 	}
 
 	public String getAddress() {
@@ -69,7 +69,7 @@ public class Person {
 	}
 
 	/**
-	 * @param dob the dob to set
+	 * @paparam dob the dob to set
 	 */
 	public void setDob(String dob) {
 		this.dob = dob;

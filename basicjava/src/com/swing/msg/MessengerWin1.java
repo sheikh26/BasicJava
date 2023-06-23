@@ -4,7 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.GridLayout;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
@@ -12,7 +12,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class MessengerWin1 extends JFrame {
+public class MessengerWin1 extends JFparame {
 
 	public JLabel userName = new JLabel("User Name");
 	public JButton send = new JButton("Send");
@@ -58,7 +58,7 @@ public class MessengerWin1 extends JFrame {
 
 		mainPanel.add(bottomPanel, BorderLayout.SOUTH);
 
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 
 		//Set Widgets properties
 		

@@ -6,7 +6,7 @@ import java.awt.TextArea;
 import java.awt.TextField;
 
 import javax.swing.JCheckBox;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
@@ -16,13 +16,13 @@ public class MyWindow2 {
 
 	public static void main(String[] args) {
 
-		JFrame frame = new JFrame("Meri First Window");
+		JFparame fparame = new JFparame("Meri First Window");
 		
 		//FlowLayout layout = new FlowLayout();
 		//FlowLayout layout = new FlowLayout(FlowLayout.RIGHT);
 		GridLayout layout = new GridLayout(2,2);
 		
-		JPanel pan = (JPanel)frame.getContentPane();
+		JPanel pan = (JPanel)fparame.getContentPane();
 		pan.setLayout(layout);
 		
 		JLabel label = new JLabel("Hello World");
@@ -38,10 +38,10 @@ public class MyWindow2 {
 		JCheckBox cb = new JCheckBox("Select Me");
 		pan.add(cb);
 		
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.pack();
+		fparame.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
+		fparame.pack();
 		
-		frame.setVisible(true);
+		fparame.setVisible(true);
 
 	}
 

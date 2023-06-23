@@ -6,7 +6,7 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JPanel;
@@ -14,7 +14,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class MessengerWin extends JFrame {
+public class MessengerWin extends JFparame {
 
 	public JLabel userName = new JLabel("User Name");
 	public JButton send = new JButton("Send");
@@ -67,7 +67,7 @@ public class MessengerWin extends JFrame {
 
 		mainPanel.add(bottomPanel, BorderLayout.SOUTH);
 
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 	
 		// Add Event Listners
 		ButtonLisner buttonLisner = 

@@ -1,5 +1,6 @@
+package com.arif;
 
-public class StringStringBuffer {
+public class StringVSStringBuffer {
 
 	public static void main(String[] args) {
 
@@ -16,7 +17,7 @@ public class StringStringBuffer {
         StringBuffer sb = new StringBuffer("This "); //OBJ 1
         sb.append("is a "); //OBJ 1
         sb.append("StringBuffer object"); 
-        sb.append("StringBuffer object"); 
+        sb.append("StringBuffer object 4"); 
         System.out.println(sb);
 
 	}

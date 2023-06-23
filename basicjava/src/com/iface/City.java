@@ -36,7 +36,7 @@ public class City implements DropDownList {
 	}
 
 	/**
-	 * @param state
+	 * @paparam state
 	 *            the state to set
 	 */
 	public void setState(String state) {

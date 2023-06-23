@@ -1,6 +1,6 @@
 package com.basic;
 
-public class HelloName {
+public class HelloNameArgs {
 	
 	public static void main(String[] args) {
 

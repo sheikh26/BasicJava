@@ -7,7 +7,7 @@ import java.util.EventObject;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -15,11 +15,11 @@ import javax.swing.JPanel;
 public class MeraButton {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 
-		JFrame win = new JFrame("Button Window");
+		JFparame win = new JFparame("Button Window");
 		JPanel panel = (JPanel) win.getContentPane();
 		JButton button = new JButton("Click Me");
 
@@ -39,7 +39,7 @@ public class MeraButton {
 		JLabel label = new JLabel("No Help");
 		panel.add(label, BorderLayout.SOUTH);
 		
-		win.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		win.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 
 		win.setSize(400, 200);
 

@@ -3,9 +3,9 @@ package com.exception;
 public class PahalaException {
 
 	public static void main(String[] args) {
-		//arithmeticException();
+		arithmeticException();
 		//nullException();
-		arrayException();
+		//arrayException();
 
 	}
 

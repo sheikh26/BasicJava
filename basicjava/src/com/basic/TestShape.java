@@ -66,7 +66,7 @@ public class TestShape {
 		 * System.out.println("Color is Shape" +s.getBorderWidth());
 		 * System.out.println("Color is BorderWidth"+s.getBorderWidth());
 		 */
-		//System.out.println("This is a one param Constructor of Shape class"+s.);
+		//System.out.println("This is a one paparam Constructor of Shape class"+s.);
 		
 	}
 }

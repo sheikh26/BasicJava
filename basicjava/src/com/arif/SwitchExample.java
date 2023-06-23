@@ -4,7 +4,7 @@ public class SwitchExample {
 	
 	public static void main(String[] args) {  
 	    //Declaring a variable for switch expression  
-	    int number=30;  
+	    int number=40;  
 	    //Switch expression  
 	    switch(number){  
 	    //Case statements  

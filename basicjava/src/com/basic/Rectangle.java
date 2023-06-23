@@ -11,7 +11,7 @@ public class Rectangle extends Shape {
 		return length;
 	}
 	/**
-	 * @param length the length to set
+	 * @paparam length the length to set
 	 */
 	public void setLength(int length) {
 		this.length = length;
@@ -24,7 +24,7 @@ public class Rectangle extends Shape {
 		return width;
 	}
 	/**
-	 * @param width the width to set
+	 * @paparam width the width to set
 	 */
 	public void setWidth(int width) {
 		this.width = width;

@@ -3,14 +3,14 @@
  * Copyright (c) 2008 Galaxy Tech
  * @date 08/08/08
  * @version 1.0
- * @author Arif Sheikh
+ * @author param Sheikh
  * 
  */
 
 public class HelloJava {
 
 	public static void main(String[] args) {
-		String name = "arif"; 
+		String name = "param"; 
 		System.out.println("Hello Java"+   name);
 
 	}

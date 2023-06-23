@@ -4,8 +4,13 @@ belongs to the class rather than the object of a class.
 
 And we can invoke static methods directly using the class name. For example,*/
 public class StaticMethod {
-
+	
 	// non-static method
+		int substract(int a, int b){
+	        return a - b;
+	    }
+
+	//static method
 	static int multiply(int a, int b){
         return a * b;
     }
@@ -24,11 +29,11 @@ public class StaticMethod {
         StaticMethod st = new StaticMethod();
 
         // call the nonstatic method
-        System.out.println(" 2 * 2 = " + st.multiply(2,2));
+        System.out.println(" 2 - 2 = " + st.substract(2,2));
 
         // call the static method
         System.out.println(" 2 + 3 = " + StaticMethod.add(2,3));
         
-        System.out.println(" 2 + 3 = " + StaticMethod.multiply(2,2));
+        System.out.println(" 2 * 2 = " + StaticMethod.multiply(2,2));
    }
 }

@@ -8,7 +8,7 @@ import java.sql.Types;
 public class TestCallFunStatement {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) throws Exception {
 

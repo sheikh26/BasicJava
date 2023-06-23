@@ -6,7 +6,7 @@ public class TestArithmeticException {
 
 	public static void main(String[] args) {
 
-		//arithmeticEx(0);
+		arithmeticEx();
 
 		//nullPointerEx();
 
@@ -14,7 +14,7 @@ public class TestArithmeticException {
 	   
 		try {
 			
-			stringIndexOutOfBound();
+			//stringIndexOutOfBound();
 			
 		}catch (StringIndexOutOfBoundsException e) {
 			System.out.println(" Strign Index caought by Main "
@@ -39,20 +39,26 @@ public class TestArithmeticException {
 		System.out.println("Main is finish");
 	}
 
-	public static void arithmeticEx(int divident) {
+	public static void arithmeticEx() {
 
-		int j = 0;
+		int i = 0;
 		try {
 
-			j = 100 / divident;
-			System.out.println(" Value of J is " + j);
+			int j = 100;
+			int k=j/i;
+			System.out.println(" Value of J is " + k);
 			
 		} catch (ArithmeticException e) {
 			System.out
 					.println("Opps :  Divident is Zero, Pl try a non zero number "
 							+ e.getMessage());
-		} finally {
-			System.out.println("This is Final");
+		} 
+		catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		finally {
+			System.out.println("HI I am a muslim");
 		}
 
 

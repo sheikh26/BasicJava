@@ -1,9 +1,11 @@
+/com/
 /Constructor.class
 /DateClass.class
 /FinalClass.class
 /FinalMethodBike.class
 /FinalMethodCall.class
 /FinalVariable.class
+/ForEachLoop.class
 /HelloDoWhile.class
 /HelloFor.class
 /HelloJava.class
@@ -14,7 +16,7 @@
 /StaticBlock.class
 /StaticMethod.class
 /StaticTest2.class
-/StringStringBuffer.class
+/StringVSStringBuffer.class
 /Student2.class
 /StudentStaticVariable.class
 /SumNum.class
@@ -22,4 +24,3 @@
 /SwitchExample.class
 /Test.class
 /TestArray.class
-/com/

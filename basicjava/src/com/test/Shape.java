@@ -12,7 +12,7 @@ public  class Shape {
 	}
 
 	/**
-	 * @param color
+	 * @paparam color
 	 *            the color to set
 	 * @return 
 	 */
@@ -28,7 +28,7 @@ public  class Shape {
 	}
 
 	/**
-	 * @param borderWidth
+	 * @paparam borderWidth
 	 *            the borderWidth to set
 	 * @return 
 	 */

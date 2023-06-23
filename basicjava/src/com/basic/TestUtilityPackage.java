@@ -8,7 +8,7 @@ import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
 public class TestUtilityPackage {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

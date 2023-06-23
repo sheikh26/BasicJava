@@ -3,7 +3,7 @@ package com.basic;
 public class StringReplace {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

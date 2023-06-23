@@ -7,9 +7,9 @@ In Java, when we create objects of a class, then every object will have its own 
 all the variables of the class. For example,*/
 public class StudentStaticVariable {
 	
-	    int rollno;
-	    String name;
-	    static String college ="DAVV"; //Static Variable gets memory once
+	    private int rollno;
+	    private String name;
+	    private static String university ="DAVV"; //Static Variable gets memory once
 
 	    /*Constructor of Student class*/
 	    StudentStaticVariable(int r,String n)
@@ -19,16 +19,16 @@ public class StudentStaticVariable {
 	    }
 	    
 	    /*Method For Displaying Student Details*/
-	    void display()
+	    public void display()
 	    {
-	        System.out.println(rollno+" "+name+" "+college); // print the value of roll no, name and college
+	        System.out.println(rollno+" "+name+" "+university); // print the value of roll no, name and college
 	    }
 
 	    public static void main(String args[])
 	    {
-	        StudentStaticVariable s1 = new StudentStaticVariable(101,"Gagan");
-	        StudentStaticVariable s2 = new StudentStaticVariable(102,"Raman");
-	        StudentStaticVariable s3 = new StudentStaticVariable(103,"Raju");
+	        StudentStaticVariable s1 = new StudentStaticVariable(101,"Arif");
+	        StudentStaticVariable s2 = new StudentStaticVariable(102,"Michel");
+	        StudentStaticVariable s3 = new StudentStaticVariable(103,"Rizwan");
 
 	        s1.display();  // call the display function using the s1 object
 	        s2.display();   // call the display function using the s2 object

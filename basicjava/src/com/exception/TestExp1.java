@@ -3,7 +3,7 @@ package com.exception;
 public class TestExp1 {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 

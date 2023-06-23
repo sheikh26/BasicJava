@@ -4,7 +4,7 @@ package com.arif;
 	
 	float salary=40000;  
 	}  
-  class Programmer extends Employee{  
+  class Progparammer extends Employee{  
 	 int bonus=10000;  
 	 
 

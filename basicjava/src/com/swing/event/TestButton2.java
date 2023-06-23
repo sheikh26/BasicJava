@@ -6,20 +6,20 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
 import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JFparame;
 import javax.swing.JPanel;
 
 public class TestButton2 {
 
 	public static void main(String[] args) {
 
-		JFrame frame = new JFrame("Meri First Window");
+		JFparame fparame = new JFparame("Meri First Window");
 		WindowHandler windowHandler = new WindowHandler();
-		frame.addWindowListener(windowHandler);
+		fparame.addWindowListener(windowHandler);
 		
 		
 
-		JPanel pan = (JPanel) frame.getContentPane();
+		JPanel pan = (JPanel) fparame.getContentPane();
 
 		JButton button = new JButton("Click Me & See Console");
 		
@@ -34,11 +34,11 @@ public class TestButton2 {
 		
 		pan.add(button);
 
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		fparame.setDefaultCloseOperation(JFparame.EXIT_ON_CLOSE);
 
-		frame.setSize(400, 200);
+		fparame.setSize(400, 200);
 
-		frame.setVisible(true);
+		fparame.setVisible(true);
 
 	}
 

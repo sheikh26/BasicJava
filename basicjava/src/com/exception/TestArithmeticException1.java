@@ -7,10 +7,10 @@ public class TestArithmeticException1 {
 	public static void main(String[] args) {
 
 		//arithmeticEx(0);
-		//nullPointerEx();
+		nullPointerEx();
 
 		try {
-			arrayIndexOutOfBound();
+			//arrayIndexOutOfBound();
 			//stringIndexOutOfBound();
 		} catch (StringIndexOutOfBoundsException e) {
 			System.out.println(" Strign Index caought in Main "
@@ -21,7 +21,7 @@ public class TestArithmeticException1 {
 					.println(" Array Index caought in Main " + e.getMessage());
 
 		}
-		System.out.println("Main is finish");
+		//System.out.println("Main is finish");
 	}
 
 	public static void arithmeticEx(int divident) {
@@ -30,10 +30,11 @@ public class TestArithmeticException1 {
 		try {
 			j = 100 / divident;
 			System.out.println(" Value of J is " + j);
-		} catch (ArithmeticException sheetal) {
-			System.out
-					.println("Opps : Divident is Zero, Pl try a  non zero number "
-							+ sheetal.getMessage());
+		} catch (ArithmeticException s) {
+			System.out.println("Opps : Divident is Zero, Pl try a  non zero number "
+							+ s.getMessage());
+		}finally {
+			System.out.println("I am a Muslim");
 		}
 
 	}
@@ -41,6 +42,7 @@ public class TestArithmeticException1 {
 	public static void nullPointerEx() {
 
 		Circle c = null; // new Circle();
+		//Circle c = new  Circle();
 		try {
 			c.setRadius(5);
 			System.out.println(" Circle Area " + c.area());

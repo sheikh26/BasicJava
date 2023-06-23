@@ -6,11 +6,11 @@ package com.basic;
  * 
  * @date 08/08/08
  * @version 1.0
- * @author Arif Sheikh
+ * @author param Sheikh
  * 
  */
 
-public class HelloAll2 {
+public class HelloAllCondition {
 
 	public static void main(String[] args) {
 		myMethod(args);

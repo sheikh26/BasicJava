@@ -2,7 +2,7 @@ package com.exception;
 
 public class TestPropagation {
 
-	public static void main(String[] args) throws LoginException {
+	public static void main(String[] args) throws LoginException  {
 		System.out.println("This is Main");
 		try {
 			padosi();
@@ -35,14 +35,15 @@ public class TestPropagation {
 	public static void mummy() throws LoginException {
 		System.out.println("This is Mother");
 
-		// try {
+		 //try {
 		you();
-		// } catch (LoginException e) {
-		// System.out.println("Caught by Mummuy " + e.getMessage());
-		// }
+		 //} catch (LoginException e) {
+		 //System.out.println("Caught by Mummuy " + 
+		 //e.getMessage());
+		 //}
 	}
 
-	public static void you() throws LoginException, RuntimeException {
+	public static void you() throws LoginException {
 
 		System.out.println("This is you");
 		LoginException exception = new LoginException("Login Fail");

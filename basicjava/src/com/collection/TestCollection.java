@@ -11,7 +11,7 @@ import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
 public class TestCollection {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 

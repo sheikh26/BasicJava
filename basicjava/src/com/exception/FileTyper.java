@@ -35,13 +35,13 @@ public class FileTyper {
 
 	public static File getFile() {
 
-		// dummy Frame, never shown
-		Frame parent = new Frame();
+		// dummy Fparame, never shown
+		Fparame parent = new Fparame();
 		FileDialog fd = new FileDialog(parent, "Please choose a file:",
 				FileDialog.LOAD);
 		fd.setVisible(true);
 
-		// Program stops here until user selects a file or cancels.
+		// Progparam stops here until user selects a file or cancels.
 		String dir = fd.getDirectory();
 		String file = fd.getFile();
 

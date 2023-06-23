@@ -11,7 +11,7 @@ public class Triangle extends Shape {
 		return base;
 	}
 	/**
-	 * @param base the base to set
+	 * @paparam base the base to set
 	 */
 	public void setBase(int base) {
 		this.base = base;
@@ -23,7 +23,7 @@ public class Triangle extends Shape {
 		return height;
 	}
 	/**
-	 * @param height the height to set
+	 * @paparam height the height to set
 	 */
 	public void setHeight(int height) {
 		this.height = height;

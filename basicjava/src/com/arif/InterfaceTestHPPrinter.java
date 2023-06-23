@@ -1,13 +1,13 @@
 package com.arif;
 
-public class ClassinterfaceHPPrinter implements InterfacePrintable{
+public class InterfaceTestHPPrinter implements InterfacePrintable{
 	
 	public void print(){
 		System.out.println("Hello HP Printing");
 		}  
 	
 	public static void main(String args[]){  
-		ClassinterfaceHPPrinter obj = new ClassinterfaceHPPrinter();  
+		InterfaceTestHPPrinter obj = new InterfaceTestHPPrinter();  
 		obj.print();  
 		 }
 

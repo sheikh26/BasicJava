@@ -5,7 +5,7 @@ import com.dto.Point;
 public class TestPoint {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		

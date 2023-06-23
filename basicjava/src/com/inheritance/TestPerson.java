@@ -4,7 +4,7 @@ public class TestPerson {
 
 	public static void main(String[] args) {
 		
-		System.out.println("$$Calling Person Class 2 Param Constructor");
+		System.out.println("$$Calling Person Class 2 Paparam Constructor");
 
 		Person p = new Person("Savita", "Saluja");
 
@@ -17,7 +17,7 @@ public class TestPerson {
 		System.out.println("__________________________________ ");
 		
 
-		System.out.println("$$Calling Person Class 3 Param Constructor");
+		System.out.println("$$Calling Person Class 3 Paparam Constructor");
 		
 		//Employee e = new Employee("Nakul", "Shukla", "CEO");
 		Person e = new Person("Savita", "Saluja","Palasia");

@@ -6,7 +6,7 @@ import com.basic.Shape;
 public class TestCircle {
 
 	/**
-	 * @param args
+	 * @paparam args
 	 */
 	public static void main(String[] args) {
 		
