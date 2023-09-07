@@ -4,7 +4,7 @@ public abstract class AbstractClassBike {
 	
 	 abstract void run();  
 	 
-	 void changeGear(){
+	 public void changeGear(){
 		 System.out.println("gear changed");
 		 }  
 }

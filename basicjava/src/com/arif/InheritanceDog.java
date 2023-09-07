@@ -2,7 +2,7 @@ package com.arif;
 
 public class InheritanceDog extends InheritanceAnimal{
 	
-	void bark(){
+	public void bark(){
 		System.out.println("barking...");
 		}  
 	

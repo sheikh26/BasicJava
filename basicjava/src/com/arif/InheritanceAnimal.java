@@ -2,7 +2,7 @@ package com.arif;
 
 public class InheritanceAnimal {
 	
-	void eat(){
+	public void eat(){
 		System.out.println("eating...");
 	}  
 }

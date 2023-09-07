@@ -3,7 +3,7 @@ package com.arif;
 public class AbstractChildHonda extends AbstractClassBike{
 
 	@Override
-	void run(){
+	public void run(){
 		System.out.println("running safely..");
 		}  
 	
